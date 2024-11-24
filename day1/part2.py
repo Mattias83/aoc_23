@@ -1,16 +1,3 @@
-# exempel puzzle_input (skall bli 281)
-# two1nine
-# eightwothree
-# abcone2threexyz
-# xtwone3four
-# 4nineeightseven2
-# zoneight234
-# 7pqrstsixteen
-# Regler:
-# Första och sista siffran skall läggas ihop från varje rad ex rad ett (two1nine) blir 29
-# one - nine räknas också som siffror så jag omvandlar dessa.
-# om det bara finns en siffra exempelvis 7 så blir talet 77.
-
 calibration_document: list[str] = [
     line for line in open("puzzle_input.txt", "r").read().splitlines()
 ]
